@@ -1,5 +1,6 @@
 ## AestheticAI
 AestheticAI nutzt generative KI und stabile Diffusionstechniken, um maßgeschneiderte Innendesigns zu erstellen, die den ästhetischen Vorlieben und funktionalen Anforderungen der Nutzer entsprechen.
+```
 import json
 
 def get_user_preferences():
@@ -25,7 +26,7 @@ def generate_design(aesthetics, requirements):
         "image": "placeholder_for_generated_design_image.jpg"
     }
     return design
-
+```
 def display_design(design):
     """
     Displays the generated design to the user.
